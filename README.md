@@ -6,6 +6,31 @@ Project at Pace University to create a program to make a small processor and run
 - [@alexanderjhughes](https://www.github.com/alexanderjhughes)
 - [@esorbella](https://github.com/esorbella)
 
+## Assignment
+
+Refer to the files and documentation in this project to build your own processor using Verilog. 
+
+Your processor must be an 8-bit processor. Inputs A and B, registers, instructions, etc. must all be confined within 8 bits. This project gives a template for an 8-bit processor.
+
+In order to get full credit, you must create four of your own unique test programs, different from the programs included in this processor. You must also have at least 3 different ALU instructions from this processor. You will need to modify the ALU, ROM, and top-level file in order to do this.
+
+As always, you will need to record a video showing the output from the FPGA. In this video, you must show each of your test programs. Additionally, we ask for a verbal explanation (in your own words!) of each module in the processor, and how they interact with other modules. You will need to examine the code closely, and you can use this documentation as a reference. The modules you must explain are:
+
+1. Control Unit / Top File
+2. ALU
+3. Registers + Instruction Register
+4. Clock
+5. Program Counter
+6. Latches (ie. why is it important to enable/disable input/output to a module at certain times)
+7. Seven-Segment Display
+8. Read-Only Memory/ROM - An explanation of your assembly code
+9. Read-Only Memory/ROM - An explanation of your test programs
+
+You're free to explain the modules in whichever order you feel is most natural. We recommend that you split this task between different students so everyone can participate. You may have to splice together everyone's recordings into a single video.
+
+You must upload:
+1. A video containing one test run of each of your test programs, explaining each module in the processor and what each test program is/what the intended output is
+2. An upload of your ROM.v (or whatever you have named it) file. This file should contain the assembly code you have declared and implemented on the processor. Leave comments explaining what each test program is and an overview of how you wrote your assembly code to obtain the intended result. You do **not** need to upload any other files - we will assume from the video that the rest of the processor is working
 
 # Files
 
